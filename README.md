@@ -257,10 +257,8 @@ Server runs at: `http://localhost:4000`
 
 ```bash
 cd client
-echo "VITE_AES_KEY=12345678901234567890123456789012" > .env
+echo "VITE_AES_KEY=<same-as-server-AES_SECRET>" > .env
 ```
-
-Important: Use the same AES key as in .env (the AES_SECRET value).
 
 **Step 2: Install and run:**
 
