@@ -197,7 +197,7 @@ This provides true public/private key authentication as required by the assignme
 ## 🖥 Server Setup
 
 
-**Step 1: Create `.env` file** (copy from example):
+**Step 1: Create `.env` file under `server/` directory:** (copy from example):
 
 ```bash
 cd server
@@ -253,7 +253,7 @@ Server runs at: `http://localhost:4000`
 
 ## 💻 Client Setup
 
-**Step 1: Create `.env` file:**
+**Step 1: Create `.env` file under `client/` directory:**
 
 ```bash
 cd client
