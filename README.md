@@ -41,10 +41,10 @@ secure-chat/
 │   │   │   ├── db/
 │   │   │   │   └── models/     # Mongoose models
 │   │   │   └── longPolling/    # Message broker
+│   │   ├── types/              # TypeScript type definitions
 │   │   ├── app.ts
 │   │   └── server.ts
 │   ├── tests/                  # Jest unit tests
-│   ├── types/                  # TypeScript type definitions
 │   ├── .env                    # Server config (git-ignored)
 │   ├── .env.example            # Template
 │   └── package.json
